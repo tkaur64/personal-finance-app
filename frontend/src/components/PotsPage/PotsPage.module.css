@@ -1,0 +1,29 @@
+.potsContainer {
+  flex-grow: 1;
+  padding: 2rem 4rem;
+  background-color: #f8f4f0;
+  min-height: 100vh;
+}
+
+.potsPageHeading {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.addNewPotBtn {
+  background-color: #000000;
+  padding: 0.6rem;
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 800;
+  border: none;
+  border-radius: 0.8rem;
+  letter-spacing: 0.3px;
+}
+
+.potsBoxContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 1rem;
+}

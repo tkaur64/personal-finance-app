@@ -1,0 +1,33 @@
+.recurringBillsWidget {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1rem;
+  background-color: #f8f4f0;
+  align-items: center;
+  padding: 1rem;
+
+  margin-bottom: 1rem;
+}
+
+.green {
+  border-left: 0.35rem solid #277c78;
+}
+
+.yellow {
+  border-left: 0.35rem solid #f2cdac;
+}
+
+.cyan {
+  border-left: 0.35rem solid #82c9d7;
+}
+.recurringBillsTitle {
+  color: #696868;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.recurringBillsValue {
+  color: black;
+  font-weight: 800;
+  font-size: 1.4rem;
+}

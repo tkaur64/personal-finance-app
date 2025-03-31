@@ -1,0 +1,25 @@
+.badgeApp {
+  display: flex;
+  gap: 1rem;
+}
+
+.badgeAppBorder {
+  width: 2.5%;
+  height: 80%;
+  border-radius: 0.5rem;
+}
+
+.badgeAppContent {
+  padding: 0.5rem;
+}
+
+.badgeAppHeader {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+  color: #696868;
+}
+
+.badgeAppValue {
+  font-weight: bold;
+  font-size: 1.4rem;
+}

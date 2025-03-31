@@ -1,0 +1,31 @@
+.modalContainer {
+  padding: 2rem;
+}
+.modalBody {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.flexContainer input,
+.flexContainer select {
+  border-radius: 0.8rem;
+  box-shadow: none;
+  padding: 1.2rem 2rem;
+  border: 1px solid #98908b;
+}
+
+.modalBody button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.8rem;
+  padding: 1rem;
+}

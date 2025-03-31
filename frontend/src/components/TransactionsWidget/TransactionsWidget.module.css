@@ -1,0 +1,41 @@
+.transactionList {
+  padding-left: 0;
+}
+
+.transactionItem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-bottom: 2px solid #f8f8f8;
+}
+
+.transactionName {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.transactionDateAmount {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.transactionAmt {
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+.transactionAmtGreen {
+  color: #277c78;
+}
+
+.transactionDate {
+  font-size: 1.2rem;
+}
+
+.transactionItem:last-child {
+  border-bottom: 0;
+}

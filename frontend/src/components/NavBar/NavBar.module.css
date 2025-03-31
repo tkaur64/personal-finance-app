@@ -1,0 +1,31 @@
+.navbarContainer {
+  background-color: rgb(32 31 36);
+  padding: 2.5rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: 100%;
+}
+
+.navbarSubContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 50vh;
+}
+
+.navbarItem {
+  display: flex;
+  font-size: 1.5rem;
+  gap: 1.5rem;
+  align-items: center;
+  color: #b3b3b3;
+  font-weight: 800;
+}
+
+.navbarItem:hover {
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.spinnerBorder {
+  --bs-spinner-width: 6rem;
+  --bs-spinner-height: 6rem;
+}
+
+.loadingText {
+  font-size: 1.8rem;
+}

@@ -1,0 +1,25 @@
+.dashboardContainer {
+  flex-grow: 1;
+  padding: 2rem 4rem;
+  background-color: #f8f4f0;
+}
+
+.dashboardHeading {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.masonry {
+  margin-top: 2rem;
+  gap: 1.5rem;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
+}
+
+.widgetContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
